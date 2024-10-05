@@ -1,0 +1,139 @@
+/* Product page layout */
+.product-page {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.product-overview {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    border: 1px solid #ddd; /* Clean border around the product info section */
+    padding: 20px;
+    background-color: #fff;
+}
+
+/* Product Gallery */
+.product-gallery {
+    width: 45%;
+}
+
+#main-product-image {
+    width: 100%;
+    border: 1px solid #ddd;
+}
+
+.view-larger {
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+    color: red;
+    font-size: 14px;
+}
+
+/* Product Info Section */
+.product-info {
+    width: 50%;
+    padding-left: 20px;
+}
+
+.product-info h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.product-code {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.product-price {
+    font-size: 22px;
+    color: red;
+    margin-bottom: 15px;
+}
+
+.stock-status {
+    font-size: 14px;
+    color: green;
+}
+
+.product-purchase-options p {
+    margin-top: 15px;
+    font-size: 16px;
+    color: #333;
+}
+
+
+
+
+.product-purchase-options button {
+    padding: 10px 20px;
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.product-purchase-options button:hover {
+    background-color: #e68a00;
+}
+
+/* Product Details Section */
+.product-details {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+.product-details h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.product-details p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.tech-details {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tech-details th, .tech-details td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.tech-details th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+/* Review Section */
+.review-box {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+
+.review {
+    background-color: #fff;
+    padding: 15px;
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.review strong {
+    font-size: 16px;
+}
+
+
